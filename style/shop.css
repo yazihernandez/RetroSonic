@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oleo+Script&family=Poppins:wght@500&family=Roboto+Condensed&display=swap');
+
+/* FONT TYPES */
+/* font-family: 'Oleo Script', cursive; */
+/* font-family: 'Poppins', sans-serif;   */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+/* DEFAULT */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 01.HEADER (NAVBAR)---------------------------------------------------- */
+.logo{
+    width: 120px;
+    margin-left: 10vw;
+    border-radius: 100%;
+}
+.navbar button{
+    color: #FFB26B;
+}
+.navbar-nav {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #f0eeed;
+    font-family: 'Roboto Condensed', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(240, 237, 212)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 5vh;
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+body{
+    height: 1000px;
+    overflow-x: hidden;
+}
+.background3{
+    background-image: url('img/turntable2.jpg');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+/* item */
+.items1{
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+    gap: 25vh;
+}
+.items2{
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+    gap: 25vh;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: none;
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    background-color: antiquewhite;
+}
+.card:not(:hover){
+    transform: scale(1);
+    transition: transform 1s;
+}
+.my-button{
+    width: 200px;
+    height: 30px;
+    border-radius: 5%;
+}
+.my-button:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+/* 05.Footer -------------------------------------------------------------*/
+#footer{
+    background-color: black;
+    height: 50vh;
+}
+.retroSonic-logo{
+    height: 35vh;
+    border-radius: 50%;
+}
+.col-sm-4{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.btn{
+    width: 100px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.newsletter h5{
+    color: #FFE194;
+    text-align: left;
+    font-weight: bold;
+}
+.footer{
+    color: #FFE194;
+    padding-top: 5vh;
+}
+.footer h5{
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5vh;
+    text-align: left;
+    padding-left: 30px;
+}
+.footer-content{
+    list-style: none;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+li a{
+    text-decoration: none;
+    color: inherit
+}
+.footer-list:hover{
+    transition: transform 1s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer-list:not(:hover){
+    transition: transform 1s ease;
+    transform: scale(1);
+    cursor: pointer;
+}
+.footer h5:hover{
+    transition: transform 1s ease;
+    transform: scale(1.1);
+}
+.footer h5:not(:hover){
+    transition: transform 1s ease;
+    transform: scale(1);
+}
+.btn-primary {
+    --bs-btn-color: #000000;
+    --bs-btn-bg: #ad8b2b;
+    --bs-btn-border-color: #ad8b2b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #615f40;
+    --bs-btn-hover-border-color:  #615f40;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ad8b2b;
+    --bs-btn-active-border-color:#ad8b2b;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.highlighted {
+    position: relative;
+  }
+  
+  .highlighted::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    height: 2px;
+    background-color: #FFE194;
+  }
+  .icon{
+    display: flex;
+    padding-top: 2vh;
+    gap: 1.4vh;
+  }
+  .social-icons {
+    width: 1.5vw;
+  }
+/* (END)Footer -------------------------------------------------------------*/
+
+
+@media (max-width:1000px){
+    .retroSonic-logo{
+        height: 25vh;
+        border-radius: 50%;
+        position: relative;
+    }
+    .footer h5{
+        font-weight: bold;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 3vh;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .footer-content{
+        list-style: none;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 2vh;
+    }
+}
+@media (max-width:900px){
+    .footerHead{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+    .items1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh;
+        gap: 25vh;
+    }
+    .items2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 8vh;
+        gap: 25vh;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5vh;
+        padding-left: 0;
+        font-family: 'Inter', sans-serif; 
+        position: relative;
+    }
+    .retroSonic-logo{
+        height: 20vh;
+        border-radius: 50%;
+        position: relative;
+    }
+    .footer{
+        color: #FFE194;
+        padding-top: 0;
+    }
+    .footer h5{
+        font-weight: bold;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 3vh;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .footer-content{
+        list-style: none;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 2vh;
+    }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroSonic</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+<!-- LANDING PAGE -->
+    <div class="landingPage parallax background1">
+            <nav class="navbar navbar-expand-lg bg-body-none loadDown">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo" src="icons/logo.png" alt="Logo"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./05.here.html">Getting Here</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./03.shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./04.contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        <h1 class="scrollLeft dimOp2 loadLeft">RetroSonic</h1>
+        <p class="scrollRight dimOp2 loadRight">Restore & Refurbish Vintage</p>
+    </div>
+
+<!-- ABOUT PAGE -->
+    <div class="parallax1 background2" id="about">
+        <div class="reveal"><h2>About</h2></div>
+        <div class="about reveal">
+            <p class="reveal2">Introducing RetroSonics, where vintage music players find new life. Step into a world of timeless melodies as our collection of gamaphones, cassette tape players, jukeboxes, and turntables takes you on a journey through the golden age of audio. Immerse yourself in the enchanting allure of nostalgia, as each meticulously restored piece carries with it the echoes of music history. Let RetroSonics be your gateway to the past, where the magic of vintage music players awaits.</p>
+        </div>
+    </div>    
+
+<!-- GALLERY -->
+
+    <div class="parallax background3 disable-select" id="gal">
+        <div class="gal">
+            <h2 class="reveal2">Gallery</h2>
+            <p class="reveal2">Drag to the left</p>
+        </div>
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" class="reveal">
+            <img class="image" src="gallery/gallery1.jpg" alt="gallery1">
+            <img class="image" src="gallery/gallery2.jpg" alt="gallery2">
+            <img class="image" src="gallery/gallery3.jpg" alt="gallery3">
+            <img class="image" src="gallery/gallery4.jpg" alt="gallery4">
+            <img class="image" src="gallery/gallery5.jpg" alt="gallery5">
+            <img class="image" src="gallery/gallery6.jpg" alt="gallery6">
+            <img class="image" src="gallery/gallery7.jpg" alt="gallery7">
+        </div>
+    </div>   
+    
+<!-- Contact  -->
+
+    <div id="contact" class="end parallax1">
+        <div class="contact">
+                <div class="form reveal chat">
+                        <p class="reveal2">Wanna chat?</p>
+                        <h3 class="reveal2">Drop us a message!</h3>
+                        <p class="reveal2">We'll reply to you as soon as possible</p>
+                    <div class="form-floating mb-3">
+                        <input type="Name" class="form-control" id="floatingInput" placeholder="Name">
+                        <label for="floatingInput">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 120px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <input class="btn btn-primary btnCustom" type="submit" value="Submit">
+                    
+                </div>
+                
+                <div class="reveal">
+                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.328172078339!2d103.8329357757125!3d1.3008932617297173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1996d80bf041%3A0x65962d763fdc49db!2sMAGES%20Institute%20of%20Excellence!5e1!3m2!1sen!2ssg!4v1685118474259!5m2!1sen!2ssg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </div>
+    </div> 
+
+<!-- FOOTER -->
+<div id="footer">
+    <div class="container text-center">
+        <div class="row footerHead">
+
+            <div class="col-sm-4">
+                <div class="footer">
+                    <h5>RETROSONIC</h5>
+                        <ul class="footer-content">
+                            <li class="footer-list highLight"><a href="./05.here.html">Getting Here</a></li>
+                            <li class="footer-list highLight"><a href="./02.about.html">About Us</a></li>
+                            <li class="footer-list highLight"><a href="#gal">Gallery</a></li>
+                            <li class="footer-list highLight"><a href="./03.shop.html">Shop</a></li>
+                            <li class="footer-list highLight"><a href="./04.contact.html">Contact</a></li>
+                        </ul>
+                </div>        
+            </div>
+            <div class="col-sm-4">
+                <a href="./01.home.html">
+                    <img class="retroSonic-logo" src="icons/RetroSonic.gif" alt="RetroSonic Logo">
+                  </a>
+            </div>
+            <div class="col-sm-4 newsletter">
+                <h5>Subscribe to our Newsletter</h5>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Subscribe">
+                <div class="icon">
+                    <a href="https://www.facebook.com">
+                        <img class="social-icons" src="icons/facebook.png" alt="Facebook">
+                      </a>
+                      <a href="https://www.instagram.com">
+                        <img class="social-icons" src="icons/instagram.png" alt="Instagram">
+                      </a>
+                      <a href="https://www.linkedin.com">
+                        <img class="social-icons" src="icons/linkedin.png" alt="LinkedIn">
+                      </a>
+                      <a href="https://www.twitter.com">
+                        <img class="social-icons" src="icons/twitter.png" alt="Twitter">
+                      </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <div id="copyright"><p>Created by Yazi-PCFSW0223-FS102-Front End Development Project</p></div>
+
+  <!-- scripts -->
+    <script src="index.js" charset="utf-8"></script> 
+    <script src="index2.js" charset="utf-8"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" 
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
